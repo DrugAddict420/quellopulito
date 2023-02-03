@@ -1,0 +1,16 @@
+<div>
+    <mat-card class="content card">
+        <div>
+            <mat-card-title>REGISTER</mat-card-title>
+        </div>
+        <mat-card-content>
+            <form>
+                <mat-form-field appearance="fill">
+                    <mat-label>CHARACTER NAME</mat-label>
+                    <input matInput placeholder="your ingame name" [formControl]="characterName">
+                </mat-form-field>
+            </form>
+            <button mat-raised-button (click)="register()">Register</button>
+        </mat-card-content>
+    </mat-card>
+</div>

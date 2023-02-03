@@ -1,0 +1,19 @@
+.trade-skill-value > mat-form-field {
+    width: 48px;
+}
+
+.trade-skill-value > mat-form-field input {
+    font-size: 12px;
+    text-align: center;
+}
+
+.trade-skill-container {
+    border: 1px solid #5c5c5c;
+    margin: 3px 3px 3px 3px;
+    padding: 3px 3px 3px 3px;
+}
+
+:host ::ng-deep .mat-form-field-wrapper{
+    margin: 0 !important;
+    padding: 3px;
+}
